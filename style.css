@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('fonts/RobotoSlab-Medium.eot');
+    src: url('fonts/RobotoSlab-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RobotoSlab-Medium.woff2') format('woff2'),
+         url('fonts/RobotoSlab-Medium.woff') format('woff'),
+         url('fonts/RobotoSlab-Medium.ttf') format('truetype'),
+         url('fonts/RobotoSlab-Medium.svg#RobotoSlab-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.head_block {
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    text-align: center;
+    color: blue;
+}
