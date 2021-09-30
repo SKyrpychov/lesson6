@@ -10,10 +10,39 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Calligraffitti';
+    src: url('fonts/subset-Calligraffitti-Regular.eot');
+    src: url('fonts/subset-Calligraffitti-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/subset-Calligraffitti-Regular.woff2') format('woff2'),
+         url('fonts/subset-Calligraffitti-Regular.woff') format('woff'),
+         url('fonts/subset-Calligraffitti-Regular.ttf') format('truetype'),
+         url('fonts/subset-Calligraffitti-Regular.svg#Calligraffitti-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 * {
     box-sizing: border-box;
 }
-
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 380px;
+   background-color: gray;
+   display: inline-block;
+   vertical-align: top;
+   margin: 20px 10px 20px 10px;
+}
+.icon {
+    width: 360px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 0 auto;
+    display: block;
+}
 .head_block {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 500;
@@ -21,4 +50,21 @@
     color: blue;
     text-transform: uppercase;
     margin: 40px 0 20px 0;
+}
+.card_name {
+    font-family: 'Calligraffitti', serif ;
+    font-weight: 400;
+    text-align: center;
+    color: blue;
+    margin: 20 0 20 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+.card_description {
+    font-family: arial, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+    margin: 0 5px 10px 5px;
+    line-height: 18px;
 }
